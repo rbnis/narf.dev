@@ -1,0 +1,19 @@
+{
+  "name": "narf",
+  "version": "1.0.0",
+  "description": "zort",
+  "main": "index.html",
+  "repository": "https://github.com/robinhuett/narf",
+  "author": "rbn",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1"
+  }
+}
