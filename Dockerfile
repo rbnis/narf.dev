@@ -4,4 +4,4 @@ FROM nginx:alpine
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 
 # Add static web page
-COPY dist/* /var/html/
+COPY dist/* /var/www/
