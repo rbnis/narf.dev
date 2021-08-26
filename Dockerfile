@@ -1,4 +1,4 @@
-FROM rbnis/static-web:latest
+FROM nginx:1.21.1-alpine
 
 # Add static web page
-COPY dist/* /var/www/
+COPY dist/* /usr/share/nginx/html/
